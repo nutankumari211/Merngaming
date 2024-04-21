@@ -7,7 +7,7 @@ const ResultPage = () => {
 
   useEffect(() => {
     // Simulate capture result
-    fetch('http://localhost:5000/api/capture', {
+    fetch('https://merngaming.vercel.app/api/capture', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
