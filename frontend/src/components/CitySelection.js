@@ -10,7 +10,7 @@ const CitySelection = () => {
 
   useEffect(() => {
     // Fetch cities data from backend
-    fetch('http://localhost:5000/api/cities')
+    fetch('https://merngaming.vercel.app/api/cities')
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch cities');
