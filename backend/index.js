@@ -5,7 +5,14 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware setup
 app.use(express.json());
-app.use(cors()); 
+app.use(
+  cors({
+    origin: "https://merngaming-xi82.vercel.app",
+    methods: ["GET", "PUT", "POST"],
+    allowedHeaders: ["my-custom-header", "content-type"],
+    credentials: true,
+  })
+);
 
 // Routes
 app.use('/api', require('./routes/cityRoutes'));
