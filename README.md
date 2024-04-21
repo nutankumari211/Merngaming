@@ -1,3 +1,5 @@
+# Hosting Link - https://merngaming-xi82.vercel.app/
+
 # Criminal Capture Game
 
 Welcome to the Criminal Capture Game! This is a simple web application where players select cities and vehicles for cops to capture fugitives.
@@ -20,18 +22,17 @@ To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine:
 
-   ```bash
-   git clone <repository-url>
+   git clone <repository-url>  or download the zip file
 
 
-# for backend
+# For backend
 2. cd <projectdirectory> 
 
 3. npm install
 
 4. npm start
 
-# for frontend
+# For frontend
 
 5. cd <projectdirectory> 
 
