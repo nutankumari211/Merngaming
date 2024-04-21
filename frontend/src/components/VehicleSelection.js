@@ -15,7 +15,7 @@ const VehicleSelection = () => {
 
   useEffect(() => {
     // Fetch vehicle data for the selected city
-    fetch(`http://localhost:5000/api/vehicles/${cityName}`)
+    fetch(`https://merngaming.vercel.app/api/vehicles/${cityName}`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch vehicles');
